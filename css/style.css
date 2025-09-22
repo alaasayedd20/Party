@@ -1,0 +1,142 @@
+:root{
+    scroll-behavior: auto;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+header{
+    height: 90vh;
+    background-image: url(../images/events-heavenly-header.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.home{
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+h1{
+    font-size: 4rem;
+}
+header .home .links{
+    height: 100vh;
+    width: 250px;
+    background-color: #111111;
+    display: none;
+    /* transition: all 1s; */
+}
+header .home .links .cover span{
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0.2s;
+
+}
+header .home .links .cover ul{
+    padding-top: 1.3rem;
+}
+header .home .links .cover li{
+    font-size: 1.6rem;
+    margin-bottom: 2.5rem;
+    
+
+}
+header .home .links .cover li a{
+    color: #fff;
+    transition: all 0.2s;
+}
+
+header .home .open .icon{
+    font-size: 1.7rem;
+}
+header .home .open{
+    cursor: pointer;
+}
+.openContainer{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 0;
+}
+
+#duration .inner .item h2{
+        background-color: #E68285;
+        margin-bottom: 0;
+        color: #fff;
+        cursor: pointer;
+}
+#duration .inner .item p{
+        background-color: rgb(204, 204, 204);
+        margin: 0;
+        color: #000;
+        display: none;
+    }
+
+#details{
+    background-image: url(../images/invitation-2508607__340.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+#details .details{
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+#details .inner{
+    border: 2px solid #fff;
+    text-align: center;
+    padding: 3rem;
+    margin-block: 1rem;
+}
+
+#contact h2{
+    color: #444444;
+    font-weight: 700;
+    font-size: 2.3rem;
+}
+#contact h3{
+    color: #444444;
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+#contact .title p{
+    color: #444444;
+}
+#contact .content .text-center p{
+    color: #777;
+    margin-bottom: 2rem;
+}
+#contact .content .text-center p span.colored{
+    color: #D62E33;
+}
+
+#contact .content ul li{
+    color: #777;
+    cursor: pointer;
+    padding: 10px;
+    margin: 7px;
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-content: center;
+    border: 1px solid #777;
+}
+#contact button{
+    background-color: #D62E33;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+}
+#contact .inputs p span{
+    color: #D62E33;
+    font-size: 1.3rem;
+}
